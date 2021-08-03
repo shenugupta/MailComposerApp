@@ -1,0 +1,1127 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4795994C26B819E3009D8B4A /* PRTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4795994626B819E3009D8B4A /* PRTextStorage.m */; };
+		4795994E26B819E3009D8B4A /* PREditorContentName.m in Sources */ = {isa = PBXBuildFile; fileRef = 4795994B26B819E3009D8B4A /* PREditorContentName.m */; };
+		4795995526B8F3D1009D8B4A /* ExamplesBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4795995426B8F3D1009D8B4A /* ExamplesBaseViewController.swift */; };
+		4795995726B8F427009D8B4A /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4795995626B8F427009D8B4A /* MasterViewController.swift */; };
+		4795995926B8F769009D8B4A /* MatchContentAttachmentExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4795995826B8F769009D8B4A /* MatchContentAttachmentExampleViewController.swift */; };
+		4795995B26B8F789009D8B4A /* RendererCommandExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4795995A26B8F789009D8B4A /* RendererCommandExampleViewController.swift */; };
+		4795995D26B8F7BD009D8B4A /* ResetCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4795995C26B8F7BD009D8B4A /* ResetCommand.swift */; };
+		4795995F26B8F7D8009D8B4A /* ScrollCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4795995E26B8F7D8009D8B4A /* ScrollCommand.swift */; };
+		4795996326B9115A009D8B4A /* CommandsExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4795996226B9115A009D8B4A /* CommandsExampleViewController.swift */; };
+		4795997426B91490009D8B4A /* JSONEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4795996526B91490009D8B4A /* JSONEncoder.swift */; };
+		4795997526B91490009D8B4A /* TextEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4795996726B91490009D8B4A /* TextEncoder.swift */; };
+		4795997626B91490009D8B4A /* PanelEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4795996826B91490009D8B4A /* PanelEncoder.swift */; };
+		4795997726B91490009D8B4A /* ParagraphEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4795996926B91490009D8B4A /* ParagraphEncoder.swift */; };
+		4795997826B91490009D8B4A /* ParagraphStyle+Codables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4795996A26B91490009D8B4A /* ParagraphStyle+Codables.swift */; };
+		4795997926B91490009D8B4A /* JSONDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4795996C26B91490009D8B4A /* JSONDecoder.swift */; };
+		4795997A26B91490009D8B4A /* UIFontDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4795996E26B91490009D8B4A /* UIFontDecoder.swift */; };
+		4795997B26B91490009D8B4A /* PanelDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4795996F26B91490009D8B4A /* PanelDecoder.swift */; };
+		4795997C26B91490009D8B4A /* TextDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4795997026B91490009D8B4A /* TextDecoder.swift */; };
+		4795997D26B91490009D8B4A /* ParagraphStyleDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4795997126B91490009D8B4A /* ParagraphStyleDecoder.swift */; };
+		4795997E26B91490009D8B4A /* ParagraphDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4795997226B91490009D8B4A /* ParagraphDecoder.swift */; };
+		4795997F26B91490009D8B4A /* AttributesDecoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4795997326B91490009D8B4A /* AttributesDecoding.swift */; };
+		4795998426B91522009D8B4A /* AutogrowingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4795998126B91522009D8B4A /* AutogrowingTextField.swift */; };
+		4795998526B91522009D8B4A /* PanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4795998226B91522009D8B4A /* PanelView.swift */; };
+		4795998626B91522009D8B4A /* PanelAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4795998326B91522009D8B4A /* PanelAttachment.swift */; };
+		4795998826B91581009D8B4A /* PanelCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4795998726B91581009D8B4A /* PanelCommand.swift */; };
+		4795998A26B91599009D8B4A /* TextBlockCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4795998926B91599009D8B4A /* TextBlockCommand.swift */; };
+		4795998C26B915FA009D8B4A /* BundleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4795998B26B915FA009D8B4A /* BundleExtensions.swift */; };
+		47F778AA26B7BCA700859902 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F778A926B7BCA700859902 /* AppDelegate.swift */; };
+		47F778AC26B7BCA700859902 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F778AB26B7BCA700859902 /* SceneDelegate.swift */; };
+		47F778AE26B7BCA700859902 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F778AD26B7BCA700859902 /* ViewController.swift */; };
+		47F778B126B7BCA700859902 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47F778AF26B7BCA700859902 /* Main.storyboard */; };
+		47F778B326B7BCA900859902 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47F778B226B7BCA900859902 /* Assets.xcassets */; };
+		47F778B626B7BCA900859902 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47F778B426B7BCA900859902 /* LaunchScreen.storyboard */; };
+		47F778C126B7BCA900859902 /* MailComposerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F778C026B7BCA900859902 /* MailComposerAppTests.swift */; };
+		47F778CC26B7BCA900859902 /* MailComposerAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F778CB26B7BCA900859902 /* MailComposerAppUITests.swift */; };
+		47F77B5026B7CC0200859902 /* RendererView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F77B0A26B7CC0200859902 /* RendererView.swift */; };
+		47F77B5126B7CC0200859902 /* HighlightTextCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F77B0C26B7CC0200859902 /* HighlightTextCommand.swift */; };
+		47F77B5226B7CC0200859902 /* RendererViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F77B0D26B7CC0200859902 /* RendererViewDelegate.swift */; };
+		47F77B5326B7CC0200859902 /* RendererViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F77B0E26B7CC0200859902 /* RendererViewContext.swift */; };
+		47F77B5426B7CC0200859902 /* CommandName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F77B1026B7CC0200859902 /* CommandName.swift */; };
+		47F77B5526B7CC0200859902 /* LayoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F77B1126B7CC0200859902 /* LayoutManager.swift */; };
+		47F77B5626B7CC0200859902 /* RichTextViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F77B1226B7CC0200859902 /* RichTextViewDelegate.swift */; };
+		47F77B5726B7CC0200859902 /* SequenceGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F77B1326B7CC0200859902 /* SequenceGenerator.swift */; };
+		47F77B5826B7CC0200859902 /* NullRichTextEditorContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F77B1426B7CC0200859902 /* NullRichTextEditorContext.swift */; };
+		47F77B5926B7CC0200859902 /* RichTextViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F77B1526B7CC0200859902 /* RichTextViewContext.swift */; };
+		47F77B5A26B7CC0200859902 /* RichTextEditorContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F77B1626B7CC0200859902 /* RichTextEditorContext.swift */; };
+		47F77B5B26B7CC0200859902 /* TextContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F77B1726B7CC0200859902 /* TextContainer.swift */; };
+		47F77B5C26B7CC0200859902 /* ListParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F77B1826B7CC0200859902 /* ListParser.swift */; };
+		47F77B5D26B7CC0200859902 /* RichTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F77B1926B7CC0200859902 /* RichTextView.swift */; };
+		47F77B5E26B7CC0200859902 /* ListFormattingProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F77B1A26B7CC0200859902 /* ListFormattingProvider.swift */; };
+		47F77B5F26B7CC0200859902 /* RichTextRendererContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F77B1B26B7CC0200859902 /* RichTextRendererContext.swift */; };
+		47F77B6026B7CC0200859902 /* TextProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F77B1D26B7CC0200859902 /* TextProcessing.swift */; };
+		47F77B6126B7CC0200859902 /* TextProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F77B1E26B7CC0200859902 /* TextProcessor.swift */; };
+		47F77B6226B7CC0200859902 /* Attachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F77B2026B7CC0200859902 /* Attachment.swift */; };
+		47F77B6326B7CC0200859902 /* SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F77B2126B7CC0200859902 /* SelectionView.swift */; };
+		47F77B6426B7CC0200859902 /* Focusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F77B2226B7CC0200859902 /* Focusable.swift */; };
+		47F77B6526B7CC0200859902 /* AttachmentSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F77B2326B7CC0200859902 /* AttachmentSize.swift */; };
+		47F77B6626B7CC0200859902 /* AttributesEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F77B2526B7CC0200859902 /* AttributesEncoding.swift */; };
+		47F77B6726B7CC0200859902 /* EditorContentEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F77B2626B7CC0200859902 /* EditorContentEncoding.swift */; };
+		47F77B6826B7CC0200859902 /* EditorContentDecoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F77B2826B7CC0200859902 /* EditorContentDecoding.swift */; };
+		47F77B6A26B7CC0200859902 /* ListTextProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F77B2C26B7CC0200859902 /* ListTextProcessor.swift */; };
+		47F77B6B26B7CC0200859902 /* EditorCommandExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F77B2D26B7CC0200859902 /* EditorCommandExecutor.swift */; };
+		47F77B6C26B7CC0200859902 /* EditorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F77B2E26B7CC0200859902 /* EditorCommand.swift */; };
+		47F77B6D26B7CC0200859902 /* ListCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F77B3026B7CC0200859902 /* ListCommand.swift */; };
+		47F77B6E26B7CC0200859902 /* UnderlineCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F77B3126B7CC0200859902 /* UnderlineCommand.swift */; };
+		47F77B6F26B7CC0200859902 /* FontTraitToggleCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F77B3226B7CC0200859902 /* FontTraitToggleCommand.swift */; };
+		47F77B7026B7CC0200859902 /* ItalicsCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F77B3326B7CC0200859902 /* ItalicsCommand.swift */; };
+		47F77B7126B7CC0200859902 /* BoldCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F77B3426B7CC0200859902 /* BoldCommand.swift */; };
+		47F77B7226B7CC0200859902 /* StrikethroughCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F77B3526B7CC0200859902 /* StrikethroughCommand.swift */; };
+		47F77B7326B7CC0200859902 /* AttributesToggleCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F77B3626B7CC0200859902 /* AttributesToggleCommand.swift */; };
+		47F77B7426B7CC0200859902 /* RendererCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F77B3826B7CC0200859902 /* RendererCommand.swift */; };
+		47F77B7526B7CC0200859902 /* RendererCommandExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F77B3926B7CC0200859902 /* RendererCommandExecutor.swift */; };
+		47F77B7626B7CC0200859902 /* String+NSRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F77B3B26B7CC0200859902 /* String+NSRange.swift */; };
+		47F77B7726B7CC0200859902 /* NSAttributedString+Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F77B3C26B7CC0200859902 /* NSAttributedString+Range.swift */; };
+		47F77B7826B7CC0200859902 /* NSAttributedString+Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F77B3D26B7CC0200859902 /* NSAttributedString+Content.swift */; };
+		47F77B7926B7CC0200859902 /* UITextRangeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F77B3E26B7CC0200859902 /* UITextRangeExtensions.swift */; };
+		47F77B7A26B7CC0200859902 /* FontExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F77B4026B7CC0200859902 /* FontExtensions.swift */; };
+		47F77B7B26B7CC0200859902 /* NSRangeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F77B4126B7CC0200859902 /* NSRangeExtensions.swift */; };
+		47F77B7C26B7CC0200859902 /* UIColor+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F77B4226B7CC0200859902 /* UIColor+Image.swift */; };
+		47F77B7D26B7CC0200859902 /* NSParagraphStyleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F77B4426B7CC0200859902 /* NSParagraphStyleExtensions.swift */; };
+		47F77B7E26B7CC0200859902 /* BackgroundStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F77B4526B7CC0200859902 /* BackgroundStyle.swift */; };
+		47F77B7F26B7CC0200859902 /* NSAttributedString+ContentTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F77B4626B7CC0200859902 /* NSAttributedString+ContentTypes.swift */; };
+		47F77B8026B7CC0200859902 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F77B4726B7CC0200859902 /* Types.swift */; };
+		47F77B8126B7CC0200859902 /* AutogrowingTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F77B4826B7CC0200859902 /* AutogrowingTextView.swift */; };
+		47F77B8226B7CC0200859902 /* EditorContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F77B4A26B7CC0200859902 /* EditorContentView.swift */; };
+		47F77B8326B7CC0200859902 /* EditorContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F77B4B26B7CC0200859902 /* EditorContent.swift */; };
+		47F77B8426B7CC0200859902 /* EditorViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F77B4C26B7CC0200859902 /* EditorViewDelegate.swift */; };
+		47F77B8526B7CC0200859902 /* EditorContentIdentifying.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F77B4D26B7CC0200859902 /* EditorContentIdentifying.swift */; };
+		47F77B8626B7CC0200859902 /* EditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F77B4E26B7CC0200859902 /* EditorView.swift */; };
+		47F77B8726B7CC0200859902 /* EditorViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F77B4F26B7CC0200859902 /* EditorViewContext.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47F778BD26B7BCA900859902 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47F7789E26B7BCA700859902 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47F778A526B7BCA700859902;
+			remoteInfo = MailComposerApp;
+		};
+		47F778C826B7BCA900859902 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47F7789E26B7BCA700859902 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47F778A526B7BCA700859902;
+			remoteInfo = MailComposerApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4795994626B819E3009D8B4A /* PRTextStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRTextStorage.m; sourceTree = "<group>"; };
+		4795994826B819E3009D8B4A /* PRTextStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRTextStorage.h; sourceTree = "<group>"; };
+		4795994A26B819E3009D8B4A /* PREditorContentName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREditorContentName.h; sourceTree = "<group>"; };
+		4795994B26B819E3009D8B4A /* PREditorContentName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREditorContentName.m; sourceTree = "<group>"; };
+		4795995326B85D37009D8B4A /* bridging-header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bridging-header.h"; sourceTree = "<group>"; };
+		4795995426B8F3D1009D8B4A /* ExamplesBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExamplesBaseViewController.swift; sourceTree = "<group>"; };
+		4795995626B8F427009D8B4A /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		4795995826B8F769009D8B4A /* MatchContentAttachmentExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchContentAttachmentExampleViewController.swift; sourceTree = "<group>"; };
+		4795995A26B8F789009D8B4A /* RendererCommandExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RendererCommandExampleViewController.swift; sourceTree = "<group>"; };
+		4795995C26B8F7BD009D8B4A /* ResetCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetCommand.swift; sourceTree = "<group>"; };
+		4795995E26B8F7D8009D8B4A /* ScrollCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollCommand.swift; sourceTree = "<group>"; };
+		4795996226B9115A009D8B4A /* CommandsExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandsExampleViewController.swift; sourceTree = "<group>"; };
+		4795996526B91490009D8B4A /* JSONEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONEncoder.swift; sourceTree = "<group>"; };
+		4795996726B91490009D8B4A /* TextEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextEncoder.swift; sourceTree = "<group>"; };
+		4795996826B91490009D8B4A /* PanelEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanelEncoder.swift; sourceTree = "<group>"; };
+		4795996926B91490009D8B4A /* ParagraphEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParagraphEncoder.swift; sourceTree = "<group>"; };
+		4795996A26B91490009D8B4A /* ParagraphStyle+Codables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ParagraphStyle+Codables.swift"; sourceTree = "<group>"; };
+		4795996C26B91490009D8B4A /* JSONDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONDecoder.swift; sourceTree = "<group>"; };
+		4795996E26B91490009D8B4A /* UIFontDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFontDecoder.swift; sourceTree = "<group>"; };
+		4795996F26B91490009D8B4A /* PanelDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanelDecoder.swift; sourceTree = "<group>"; };
+		4795997026B91490009D8B4A /* TextDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextDecoder.swift; sourceTree = "<group>"; };
+		4795997126B91490009D8B4A /* ParagraphStyleDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParagraphStyleDecoder.swift; sourceTree = "<group>"; };
+		4795997226B91490009D8B4A /* ParagraphDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParagraphDecoder.swift; sourceTree = "<group>"; };
+		4795997326B91490009D8B4A /* AttributesDecoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttributesDecoding.swift; sourceTree = "<group>"; };
+		4795998126B91522009D8B4A /* AutogrowingTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutogrowingTextField.swift; sourceTree = "<group>"; };
+		4795998226B91522009D8B4A /* PanelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanelView.swift; sourceTree = "<group>"; };
+		4795998326B91522009D8B4A /* PanelAttachment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanelAttachment.swift; sourceTree = "<group>"; };
+		4795998726B91581009D8B4A /* PanelCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanelCommand.swift; sourceTree = "<group>"; };
+		4795998926B91599009D8B4A /* TextBlockCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextBlockCommand.swift; sourceTree = "<group>"; };
+		4795998B26B915FA009D8B4A /* BundleExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BundleExtensions.swift; sourceTree = "<group>"; };
+		47F778A626B7BCA700859902 /* MailComposerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MailComposerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47F778A926B7BCA700859902 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		47F778AB26B7BCA700859902 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		47F778AD26B7BCA700859902 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		47F778B026B7BCA700859902 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47F778B226B7BCA900859902 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47F778B526B7BCA900859902 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47F778B726B7BCA900859902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47F778BC26B7BCA900859902 /* MailComposerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MailComposerAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47F778C026B7BCA900859902 /* MailComposerAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailComposerAppTests.swift; sourceTree = "<group>"; };
+		47F778C226B7BCA900859902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47F778C726B7BCA900859902 /* MailComposerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MailComposerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47F778CB26B7BCA900859902 /* MailComposerAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailComposerAppUITests.swift; sourceTree = "<group>"; };
+		47F778CD26B7BCA900859902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47F77B0A26B7CC0200859902 /* RendererView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RendererView.swift; sourceTree = "<group>"; };
+		47F77B0C26B7CC0200859902 /* HighlightTextCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighlightTextCommand.swift; sourceTree = "<group>"; };
+		47F77B0D26B7CC0200859902 /* RendererViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RendererViewDelegate.swift; sourceTree = "<group>"; };
+		47F77B0E26B7CC0200859902 /* RendererViewContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RendererViewContext.swift; sourceTree = "<group>"; };
+		47F77B1026B7CC0200859902 /* CommandName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandName.swift; sourceTree = "<group>"; };
+		47F77B1126B7CC0200859902 /* LayoutManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutManager.swift; sourceTree = "<group>"; };
+		47F77B1226B7CC0200859902 /* RichTextViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RichTextViewDelegate.swift; sourceTree = "<group>"; };
+		47F77B1326B7CC0200859902 /* SequenceGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SequenceGenerator.swift; sourceTree = "<group>"; };
+		47F77B1426B7CC0200859902 /* NullRichTextEditorContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NullRichTextEditorContext.swift; sourceTree = "<group>"; };
+		47F77B1526B7CC0200859902 /* RichTextViewContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RichTextViewContext.swift; sourceTree = "<group>"; };
+		47F77B1626B7CC0200859902 /* RichTextEditorContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RichTextEditorContext.swift; sourceTree = "<group>"; };
+		47F77B1726B7CC0200859902 /* TextContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextContainer.swift; sourceTree = "<group>"; };
+		47F77B1826B7CC0200859902 /* ListParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListParser.swift; sourceTree = "<group>"; };
+		47F77B1926B7CC0200859902 /* RichTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RichTextView.swift; sourceTree = "<group>"; };
+		47F77B1A26B7CC0200859902 /* ListFormattingProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListFormattingProvider.swift; sourceTree = "<group>"; };
+		47F77B1B26B7CC0200859902 /* RichTextRendererContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RichTextRendererContext.swift; sourceTree = "<group>"; };
+		47F77B1D26B7CC0200859902 /* TextProcessing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextProcessing.swift; sourceTree = "<group>"; };
+		47F77B1E26B7CC0200859902 /* TextProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextProcessor.swift; sourceTree = "<group>"; };
+		47F77B2026B7CC0200859902 /* Attachment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Attachment.swift; sourceTree = "<group>"; };
+		47F77B2126B7CC0200859902 /* SelectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionView.swift; sourceTree = "<group>"; };
+		47F77B2226B7CC0200859902 /* Focusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Focusable.swift; sourceTree = "<group>"; };
+		47F77B2326B7CC0200859902 /* AttachmentSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttachmentSize.swift; sourceTree = "<group>"; };
+		47F77B2526B7CC0200859902 /* AttributesEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttributesEncoding.swift; sourceTree = "<group>"; };
+		47F77B2626B7CC0200859902 /* EditorContentEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditorContentEncoding.swift; sourceTree = "<group>"; };
+		47F77B2826B7CC0200859902 /* EditorContentDecoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditorContentDecoding.swift; sourceTree = "<group>"; };
+		47F77B2C26B7CC0200859902 /* ListTextProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTextProcessor.swift; sourceTree = "<group>"; };
+		47F77B2D26B7CC0200859902 /* EditorCommandExecutor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditorCommandExecutor.swift; sourceTree = "<group>"; };
+		47F77B2E26B7CC0200859902 /* EditorCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditorCommand.swift; sourceTree = "<group>"; };
+		47F77B3026B7CC0200859902 /* ListCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListCommand.swift; sourceTree = "<group>"; };
+		47F77B3126B7CC0200859902 /* UnderlineCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnderlineCommand.swift; sourceTree = "<group>"; };
+		47F77B3226B7CC0200859902 /* FontTraitToggleCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontTraitToggleCommand.swift; sourceTree = "<group>"; };
+		47F77B3326B7CC0200859902 /* ItalicsCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItalicsCommand.swift; sourceTree = "<group>"; };
+		47F77B3426B7CC0200859902 /* BoldCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoldCommand.swift; sourceTree = "<group>"; };
+		47F77B3526B7CC0200859902 /* StrikethroughCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrikethroughCommand.swift; sourceTree = "<group>"; };
+		47F77B3626B7CC0200859902 /* AttributesToggleCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttributesToggleCommand.swift; sourceTree = "<group>"; };
+		47F77B3826B7CC0200859902 /* RendererCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RendererCommand.swift; sourceTree = "<group>"; };
+		47F77B3926B7CC0200859902 /* RendererCommandExecutor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RendererCommandExecutor.swift; sourceTree = "<group>"; };
+		47F77B3B26B7CC0200859902 /* String+NSRange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+NSRange.swift"; sourceTree = "<group>"; };
+		47F77B3C26B7CC0200859902 /* NSAttributedString+Range.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Range.swift"; sourceTree = "<group>"; };
+		47F77B3D26B7CC0200859902 /* NSAttributedString+Content.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Content.swift"; sourceTree = "<group>"; };
+		47F77B3E26B7CC0200859902 /* UITextRangeExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextRangeExtensions.swift; sourceTree = "<group>"; };
+		47F77B4026B7CC0200859902 /* FontExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontExtensions.swift; sourceTree = "<group>"; };
+		47F77B4126B7CC0200859902 /* NSRangeExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSRangeExtensions.swift; sourceTree = "<group>"; };
+		47F77B4226B7CC0200859902 /* UIColor+Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Image.swift"; sourceTree = "<group>"; };
+		47F77B4426B7CC0200859902 /* NSParagraphStyleExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSParagraphStyleExtensions.swift; sourceTree = "<group>"; };
+		47F77B4526B7CC0200859902 /* BackgroundStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundStyle.swift; sourceTree = "<group>"; };
+		47F77B4626B7CC0200859902 /* NSAttributedString+ContentTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+ContentTypes.swift"; sourceTree = "<group>"; };
+		47F77B4726B7CC0200859902 /* Types.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
+		47F77B4826B7CC0200859902 /* AutogrowingTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutogrowingTextView.swift; sourceTree = "<group>"; };
+		47F77B4A26B7CC0200859902 /* EditorContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditorContentView.swift; sourceTree = "<group>"; };
+		47F77B4B26B7CC0200859902 /* EditorContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditorContent.swift; sourceTree = "<group>"; };
+		47F77B4C26B7CC0200859902 /* EditorViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditorViewDelegate.swift; sourceTree = "<group>"; };
+		47F77B4D26B7CC0200859902 /* EditorContentIdentifying.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditorContentIdentifying.swift; sourceTree = "<group>"; };
+		47F77B4E26B7CC0200859902 /* EditorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditorView.swift; sourceTree = "<group>"; };
+		47F77B4F26B7CC0200859902 /* EditorViewContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditorViewContext.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47F778A326B7BCA700859902 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F778B926B7BCA900859902 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F778C426B7BCA900859902 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4795994526B819E3009D8B4A /* ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				4795994626B819E3009D8B4A /* PRTextStorage.m */,
+				4795994726B819E3009D8B4A /* include */,
+				4795994B26B819E3009D8B4A /* PREditorContentName.m */,
+			);
+			name = ObjC;
+			path = MailComposerApp/MailComposerFramework/MailComposerFramework/ObjC;
+			sourceTree = "<group>";
+		};
+		4795994726B819E3009D8B4A /* include */ = {
+			isa = PBXGroup;
+			children = (
+				4795994826B819E3009D8B4A /* PRTextStorage.h */,
+				4795994A26B819E3009D8B4A /* PREditorContentName.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		4795995226B85CE1009D8B4A /* MailComposer */ = {
+			isa = PBXGroup;
+			children = (
+				4795995326B85D37009D8B4A /* bridging-header.h */,
+			);
+			path = MailComposer;
+			sourceTree = "<group>";
+		};
+		4795996426B91490009D8B4A /* Encoding */ = {
+			isa = PBXGroup;
+			children = (
+				4795996526B91490009D8B4A /* JSONEncoder.swift */,
+				4795996626B91490009D8B4A /* Encoders */,
+			);
+			path = Encoding;
+			sourceTree = "<group>";
+		};
+		4795996626B91490009D8B4A /* Encoders */ = {
+			isa = PBXGroup;
+			children = (
+				4795996726B91490009D8B4A /* TextEncoder.swift */,
+				4795996826B91490009D8B4A /* PanelEncoder.swift */,
+				4795996926B91490009D8B4A /* ParagraphEncoder.swift */,
+				4795996A26B91490009D8B4A /* ParagraphStyle+Codables.swift */,
+			);
+			path = Encoders;
+			sourceTree = "<group>";
+		};
+		4795996B26B91490009D8B4A /* Decoding */ = {
+			isa = PBXGroup;
+			children = (
+				4795996C26B91490009D8B4A /* JSONDecoder.swift */,
+				4795996D26B91490009D8B4A /* Decoder */,
+				4795997326B91490009D8B4A /* AttributesDecoding.swift */,
+			);
+			path = Decoding;
+			sourceTree = "<group>";
+		};
+		4795996D26B91490009D8B4A /* Decoder */ = {
+			isa = PBXGroup;
+			children = (
+				4795996E26B91490009D8B4A /* UIFontDecoder.swift */,
+				4795996F26B91490009D8B4A /* PanelDecoder.swift */,
+				4795997026B91490009D8B4A /* TextDecoder.swift */,
+				4795997126B91490009D8B4A /* ParagraphStyleDecoder.swift */,
+				4795997226B91490009D8B4A /* ParagraphDecoder.swift */,
+			);
+			path = Decoder;
+			sourceTree = "<group>";
+		};
+		4795998026B91522009D8B4A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4795998126B91522009D8B4A /* AutogrowingTextField.swift */,
+				4795998226B91522009D8B4A /* PanelView.swift */,
+				4795998326B91522009D8B4A /* PanelAttachment.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		47F7789D26B7BCA700859902 = {
+			isa = PBXGroup;
+			children = (
+				4795998B26B915FA009D8B4A /* BundleExtensions.swift */,
+				4795998926B91599009D8B4A /* TextBlockCommand.swift */,
+				4795998726B91581009D8B4A /* PanelCommand.swift */,
+				4795998026B91522009D8B4A /* Views */,
+				4795996B26B91490009D8B4A /* Decoding */,
+				4795996426B91490009D8B4A /* Encoding */,
+				4795995226B85CE1009D8B4A /* MailComposer */,
+				4795994526B819E3009D8B4A /* ObjC */,
+				47F77B0826B7CC0200859902 /* Swift */,
+				47F778A826B7BCA700859902 /* MailComposerApp */,
+				47F778BF26B7BCA900859902 /* MailComposerAppTests */,
+				47F778CA26B7BCA900859902 /* MailComposerAppUITests */,
+				47F778A726B7BCA700859902 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47F778A726B7BCA700859902 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47F778A626B7BCA700859902 /* MailComposerApp.app */,
+				47F778BC26B7BCA900859902 /* MailComposerAppTests.xctest */,
+				47F778C726B7BCA900859902 /* MailComposerAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47F778A826B7BCA700859902 /* MailComposerApp */ = {
+			isa = PBXGroup;
+			children = (
+				4795996226B9115A009D8B4A /* CommandsExampleViewController.swift */,
+				4795995E26B8F7D8009D8B4A /* ScrollCommand.swift */,
+				4795995C26B8F7BD009D8B4A /* ResetCommand.swift */,
+				4795995A26B8F789009D8B4A /* RendererCommandExampleViewController.swift */,
+				4795995826B8F769009D8B4A /* MatchContentAttachmentExampleViewController.swift */,
+				4795995626B8F427009D8B4A /* MasterViewController.swift */,
+				4795995426B8F3D1009D8B4A /* ExamplesBaseViewController.swift */,
+				47F778A926B7BCA700859902 /* AppDelegate.swift */,
+				47F778AB26B7BCA700859902 /* SceneDelegate.swift */,
+				47F778AD26B7BCA700859902 /* ViewController.swift */,
+				47F778AF26B7BCA700859902 /* Main.storyboard */,
+				47F778B226B7BCA900859902 /* Assets.xcassets */,
+				47F778B426B7BCA900859902 /* LaunchScreen.storyboard */,
+				47F778B726B7BCA900859902 /* Info.plist */,
+			);
+			path = MailComposerApp;
+			sourceTree = "<group>";
+		};
+		47F778BF26B7BCA900859902 /* MailComposerAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				47F778C026B7BCA900859902 /* MailComposerAppTests.swift */,
+				47F778C226B7BCA900859902 /* Info.plist */,
+			);
+			path = MailComposerAppTests;
+			sourceTree = "<group>";
+		};
+		47F778CA26B7BCA900859902 /* MailComposerAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				47F778CB26B7BCA900859902 /* MailComposerAppUITests.swift */,
+				47F778CD26B7BCA900859902 /* Info.plist */,
+			);
+			path = MailComposerAppUITests;
+			sourceTree = "<group>";
+		};
+		47F77B0826B7CC0200859902 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				47F77B0926B7CC0200859902 /* Renderer */,
+				47F77B0F26B7CC0200859902 /* Core */,
+				47F77B1C26B7CC0200859902 /* TextProcessors */,
+				47F77B1F26B7CC0200859902 /* Attachment */,
+				47F77B2426B7CC0200859902 /* Encoding */,
+				47F77B2726B7CC0200859902 /* Decoding */,
+				47F77B2A26B7CC0200859902 /* EditorCommand */,
+				47F77B3726B7CC0200859902 /* RendererCommand */,
+				47F77B3A26B7CC0200859902 /* Helpers */,
+				47F77B4326B7CC0200859902 /* Base */,
+				47F77B4926B7CC0200859902 /* Editor */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		47F77B0926B7CC0200859902 /* Renderer */ = {
+			isa = PBXGroup;
+			children = (
+				47F77B0A26B7CC0200859902 /* RendererView.swift */,
+				47F77B0B26B7CC0200859902 /* Commands */,
+				47F77B0D26B7CC0200859902 /* RendererViewDelegate.swift */,
+				47F77B0E26B7CC0200859902 /* RendererViewContext.swift */,
+			);
+			path = Renderer;
+			sourceTree = "<group>";
+		};
+		47F77B0B26B7CC0200859902 /* Commands */ = {
+			isa = PBXGroup;
+			children = (
+				47F77B0C26B7CC0200859902 /* HighlightTextCommand.swift */,
+			);
+			path = Commands;
+			sourceTree = "<group>";
+		};
+		47F77B0F26B7CC0200859902 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				47F77B1026B7CC0200859902 /* CommandName.swift */,
+				47F77B1126B7CC0200859902 /* LayoutManager.swift */,
+				47F77B1226B7CC0200859902 /* RichTextViewDelegate.swift */,
+				47F77B1326B7CC0200859902 /* SequenceGenerator.swift */,
+				47F77B1426B7CC0200859902 /* NullRichTextEditorContext.swift */,
+				47F77B1526B7CC0200859902 /* RichTextViewContext.swift */,
+				47F77B1626B7CC0200859902 /* RichTextEditorContext.swift */,
+				47F77B1726B7CC0200859902 /* TextContainer.swift */,
+				47F77B1826B7CC0200859902 /* ListParser.swift */,
+				47F77B1926B7CC0200859902 /* RichTextView.swift */,
+				47F77B1A26B7CC0200859902 /* ListFormattingProvider.swift */,
+				47F77B1B26B7CC0200859902 /* RichTextRendererContext.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		47F77B1C26B7CC0200859902 /* TextProcessors */ = {
+			isa = PBXGroup;
+			children = (
+				47F77B1D26B7CC0200859902 /* TextProcessing.swift */,
+				47F77B1E26B7CC0200859902 /* TextProcessor.swift */,
+			);
+			path = TextProcessors;
+			sourceTree = "<group>";
+		};
+		47F77B1F26B7CC0200859902 /* Attachment */ = {
+			isa = PBXGroup;
+			children = (
+				47F77B2026B7CC0200859902 /* Attachment.swift */,
+				47F77B2126B7CC0200859902 /* SelectionView.swift */,
+				47F77B2226B7CC0200859902 /* Focusable.swift */,
+				47F77B2326B7CC0200859902 /* AttachmentSize.swift */,
+			);
+			path = Attachment;
+			sourceTree = "<group>";
+		};
+		47F77B2426B7CC0200859902 /* Encoding */ = {
+			isa = PBXGroup;
+			children = (
+				47F77B2526B7CC0200859902 /* AttributesEncoding.swift */,
+				47F77B2626B7CC0200859902 /* EditorContentEncoding.swift */,
+			);
+			path = Encoding;
+			sourceTree = "<group>";
+		};
+		47F77B2726B7CC0200859902 /* Decoding */ = {
+			isa = PBXGroup;
+			children = (
+				47F77B2826B7CC0200859902 /* EditorContentDecoding.swift */,
+			);
+			path = Decoding;
+			sourceTree = "<group>";
+		};
+		47F77B2A26B7CC0200859902 /* EditorCommand */ = {
+			isa = PBXGroup;
+			children = (
+				47F77B2B26B7CC0200859902 /* TextProcessors */,
+				47F77B2D26B7CC0200859902 /* EditorCommandExecutor.swift */,
+				47F77B2E26B7CC0200859902 /* EditorCommand.swift */,
+				47F77B2F26B7CC0200859902 /* Commands */,
+			);
+			path = EditorCommand;
+			sourceTree = "<group>";
+		};
+		47F77B2B26B7CC0200859902 /* TextProcessors */ = {
+			isa = PBXGroup;
+			children = (
+				47F77B2C26B7CC0200859902 /* ListTextProcessor.swift */,
+			);
+			path = TextProcessors;
+			sourceTree = "<group>";
+		};
+		47F77B2F26B7CC0200859902 /* Commands */ = {
+			isa = PBXGroup;
+			children = (
+				47F77B3026B7CC0200859902 /* ListCommand.swift */,
+				47F77B3126B7CC0200859902 /* UnderlineCommand.swift */,
+				47F77B3226B7CC0200859902 /* FontTraitToggleCommand.swift */,
+				47F77B3326B7CC0200859902 /* ItalicsCommand.swift */,
+				47F77B3426B7CC0200859902 /* BoldCommand.swift */,
+				47F77B3526B7CC0200859902 /* StrikethroughCommand.swift */,
+				47F77B3626B7CC0200859902 /* AttributesToggleCommand.swift */,
+			);
+			path = Commands;
+			sourceTree = "<group>";
+		};
+		47F77B3726B7CC0200859902 /* RendererCommand */ = {
+			isa = PBXGroup;
+			children = (
+				47F77B3826B7CC0200859902 /* RendererCommand.swift */,
+				47F77B3926B7CC0200859902 /* RendererCommandExecutor.swift */,
+			);
+			path = RendererCommand;
+			sourceTree = "<group>";
+		};
+		47F77B3A26B7CC0200859902 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				47F77B3B26B7CC0200859902 /* String+NSRange.swift */,
+				47F77B3C26B7CC0200859902 /* NSAttributedString+Range.swift */,
+				47F77B3D26B7CC0200859902 /* NSAttributedString+Content.swift */,
+				47F77B3E26B7CC0200859902 /* UITextRangeExtensions.swift */,
+				47F77B3F26B7CC0200859902 /* Text */,
+				47F77B4126B7CC0200859902 /* NSRangeExtensions.swift */,
+				47F77B4226B7CC0200859902 /* UIColor+Image.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		47F77B3F26B7CC0200859902 /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				47F77B4026B7CC0200859902 /* FontExtensions.swift */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
+		47F77B4326B7CC0200859902 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				47F77B4426B7CC0200859902 /* NSParagraphStyleExtensions.swift */,
+				47F77B4526B7CC0200859902 /* BackgroundStyle.swift */,
+				47F77B4626B7CC0200859902 /* NSAttributedString+ContentTypes.swift */,
+				47F77B4726B7CC0200859902 /* Types.swift */,
+				47F77B4826B7CC0200859902 /* AutogrowingTextView.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		47F77B4926B7CC0200859902 /* Editor */ = {
+			isa = PBXGroup;
+			children = (
+				47F77B4A26B7CC0200859902 /* EditorContentView.swift */,
+				47F77B4B26B7CC0200859902 /* EditorContent.swift */,
+				47F77B4C26B7CC0200859902 /* EditorViewDelegate.swift */,
+				47F77B4D26B7CC0200859902 /* EditorContentIdentifying.swift */,
+				47F77B4E26B7CC0200859902 /* EditorView.swift */,
+				47F77B4F26B7CC0200859902 /* EditorViewContext.swift */,
+			);
+			path = Editor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47F778A526B7BCA700859902 /* MailComposerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47F778D026B7BCA900859902 /* Build configuration list for PBXNativeTarget "MailComposerApp" */;
+			buildPhases = (
+				47F778A226B7BCA700859902 /* Sources */,
+				47F778A326B7BCA700859902 /* Frameworks */,
+				47F778A426B7BCA700859902 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MailComposerApp;
+			productName = MailComposerApp;
+			productReference = 47F778A626B7BCA700859902 /* MailComposerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47F778BB26B7BCA900859902 /* MailComposerAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47F778D326B7BCA900859902 /* Build configuration list for PBXNativeTarget "MailComposerAppTests" */;
+			buildPhases = (
+				47F778B826B7BCA900859902 /* Sources */,
+				47F778B926B7BCA900859902 /* Frameworks */,
+				47F778BA26B7BCA900859902 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47F778BE26B7BCA900859902 /* PBXTargetDependency */,
+			);
+			name = MailComposerAppTests;
+			productName = MailComposerAppTests;
+			productReference = 47F778BC26B7BCA900859902 /* MailComposerAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		47F778C626B7BCA900859902 /* MailComposerAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47F778D626B7BCA900859902 /* Build configuration list for PBXNativeTarget "MailComposerAppUITests" */;
+			buildPhases = (
+				47F778C326B7BCA900859902 /* Sources */,
+				47F778C426B7BCA900859902 /* Frameworks */,
+				47F778C526B7BCA900859902 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47F778C926B7BCA900859902 /* PBXTargetDependency */,
+			);
+			name = MailComposerAppUITests;
+			productName = MailComposerAppUITests;
+			productReference = 47F778C726B7BCA900859902 /* MailComposerAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47F7789E26B7BCA700859902 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					47F778A526B7BCA700859902 = {
+						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1250;
+					};
+					47F778BB26B7BCA900859902 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 47F778A526B7BCA700859902;
+					};
+					47F778C626B7BCA900859902 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 47F778A526B7BCA700859902;
+					};
+				};
+			};
+			buildConfigurationList = 47F778A126B7BCA700859902 /* Build configuration list for PBXProject "MailComposerApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47F7789D26B7BCA700859902;
+			productRefGroup = 47F778A726B7BCA700859902 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47F778A526B7BCA700859902 /* MailComposerApp */,
+				47F778BB26B7BCA900859902 /* MailComposerAppTests */,
+				47F778C626B7BCA900859902 /* MailComposerAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47F778A426B7BCA700859902 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F778B626B7BCA900859902 /* LaunchScreen.storyboard in Resources */,
+				47F778B326B7BCA900859902 /* Assets.xcassets in Resources */,
+				47F778B126B7BCA700859902 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F778BA26B7BCA900859902 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F778C526B7BCA900859902 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47F778A226B7BCA700859902 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4795997F26B91490009D8B4A /* AttributesDecoding.swift in Sources */,
+				47F77B6326B7CC0200859902 /* SelectionView.swift in Sources */,
+				47F77B7126B7CC0200859902 /* BoldCommand.swift in Sources */,
+				47F77B5B26B7CC0200859902 /* TextContainer.swift in Sources */,
+				4795995B26B8F789009D8B4A /* RendererCommandExampleViewController.swift in Sources */,
+				47F77B7226B7CC0200859902 /* StrikethroughCommand.swift in Sources */,
+				47F77B5826B7CC0200859902 /* NullRichTextEditorContext.swift in Sources */,
+				4795995726B8F427009D8B4A /* MasterViewController.swift in Sources */,
+				4795994E26B819E3009D8B4A /* PREditorContentName.m in Sources */,
+				47F77B7E26B7CC0200859902 /* BackgroundStyle.swift in Sources */,
+				47F77B7B26B7CC0200859902 /* NSRangeExtensions.swift in Sources */,
+				47F77B7626B7CC0200859902 /* String+NSRange.swift in Sources */,
+				47F77B5226B7CC0200859902 /* RendererViewDelegate.swift in Sources */,
+				47F77B5E26B7CC0200859902 /* ListFormattingProvider.swift in Sources */,
+				4795997626B91490009D8B4A /* PanelEncoder.swift in Sources */,
+				4795995D26B8F7BD009D8B4A /* ResetCommand.swift in Sources */,
+				4795998426B91522009D8B4A /* AutogrowingTextField.swift in Sources */,
+				47F77B6226B7CC0200859902 /* Attachment.swift in Sources */,
+				4795996326B9115A009D8B4A /* CommandsExampleViewController.swift in Sources */,
+				4795997A26B91490009D8B4A /* UIFontDecoder.swift in Sources */,
+				47F77B7526B7CC0200859902 /* RendererCommandExecutor.swift in Sources */,
+				47F77B6E26B7CC0200859902 /* UnderlineCommand.swift in Sources */,
+				47F77B7F26B7CC0200859902 /* NSAttributedString+ContentTypes.swift in Sources */,
+				47F77B6426B7CC0200859902 /* Focusable.swift in Sources */,
+				47F77B8626B7CC0200859902 /* EditorView.swift in Sources */,
+				47F77B6A26B7CC0200859902 /* ListTextProcessor.swift in Sources */,
+				47F778AE26B7BCA700859902 /* ViewController.swift in Sources */,
+				47F77B6726B7CC0200859902 /* EditorContentEncoding.swift in Sources */,
+				47F77B8126B7CC0200859902 /* AutogrowingTextView.swift in Sources */,
+				4795998626B91522009D8B4A /* PanelAttachment.swift in Sources */,
+				47F77B7926B7CC0200859902 /* UITextRangeExtensions.swift in Sources */,
+				47F77B6B26B7CC0200859902 /* EditorCommandExecutor.swift in Sources */,
+				47F77B7426B7CC0200859902 /* RendererCommand.swift in Sources */,
+				47F77B5C26B7CC0200859902 /* ListParser.swift in Sources */,
+				4795997426B91490009D8B4A /* JSONEncoder.swift in Sources */,
+				47F77B5626B7CC0200859902 /* RichTextViewDelegate.swift in Sources */,
+				47F77B8726B7CC0200859902 /* EditorViewContext.swift in Sources */,
+				47F77B5F26B7CC0200859902 /* RichTextRendererContext.swift in Sources */,
+				47F77B7026B7CC0200859902 /* ItalicsCommand.swift in Sources */,
+				47F77B6D26B7CC0200859902 /* ListCommand.swift in Sources */,
+				4795998A26B91599009D8B4A /* TextBlockCommand.swift in Sources */,
+				47F77B5926B7CC0200859902 /* RichTextViewContext.swift in Sources */,
+				47F77B8326B7CC0200859902 /* EditorContent.swift in Sources */,
+				47F77B6826B7CC0200859902 /* EditorContentDecoding.swift in Sources */,
+				47F77B8226B7CC0200859902 /* EditorContentView.swift in Sources */,
+				47F77B6026B7CC0200859902 /* TextProcessing.swift in Sources */,
+				47F77B5126B7CC0200859902 /* HighlightTextCommand.swift in Sources */,
+				47F77B5326B7CC0200859902 /* RendererViewContext.swift in Sources */,
+				47F77B6C26B7CC0200859902 /* EditorCommand.swift in Sources */,
+				4795995926B8F769009D8B4A /* MatchContentAttachmentExampleViewController.swift in Sources */,
+				4795995F26B8F7D8009D8B4A /* ScrollCommand.swift in Sources */,
+				47F77B5726B7CC0200859902 /* SequenceGenerator.swift in Sources */,
+				47F77B5D26B7CC0200859902 /* RichTextView.swift in Sources */,
+				47F77B6126B7CC0200859902 /* TextProcessor.swift in Sources */,
+				47F77B5426B7CC0200859902 /* CommandName.swift in Sources */,
+				47F77B8426B7CC0200859902 /* EditorViewDelegate.swift in Sources */,
+				4795994C26B819E3009D8B4A /* PRTextStorage.m in Sources */,
+				47F77B7D26B7CC0200859902 /* NSParagraphStyleExtensions.swift in Sources */,
+				4795997826B91490009D8B4A /* ParagraphStyle+Codables.swift in Sources */,
+				4795998C26B915FA009D8B4A /* BundleExtensions.swift in Sources */,
+				47F77B7326B7CC0200859902 /* AttributesToggleCommand.swift in Sources */,
+				4795997926B91490009D8B4A /* JSONDecoder.swift in Sources */,
+				47F77B7726B7CC0200859902 /* NSAttributedString+Range.swift in Sources */,
+				47F77B5526B7CC0200859902 /* LayoutManager.swift in Sources */,
+				47F77B8526B7CC0200859902 /* EditorContentIdentifying.swift in Sources */,
+				4795997526B91490009D8B4A /* TextEncoder.swift in Sources */,
+				4795995526B8F3D1009D8B4A /* ExamplesBaseViewController.swift in Sources */,
+				47F778AA26B7BCA700859902 /* AppDelegate.swift in Sources */,
+				47F778AC26B7BCA700859902 /* SceneDelegate.swift in Sources */,
+				4795998826B91581009D8B4A /* PanelCommand.swift in Sources */,
+				47F77B7826B7CC0200859902 /* NSAttributedString+Content.swift in Sources */,
+				4795997726B91490009D8B4A /* ParagraphEncoder.swift in Sources */,
+				4795997D26B91490009D8B4A /* ParagraphStyleDecoder.swift in Sources */,
+				4795997B26B91490009D8B4A /* PanelDecoder.swift in Sources */,
+				47F77B7C26B7CC0200859902 /* UIColor+Image.swift in Sources */,
+				47F77B5026B7CC0200859902 /* RendererView.swift in Sources */,
+				4795998526B91522009D8B4A /* PanelView.swift in Sources */,
+				47F77B5A26B7CC0200859902 /* RichTextEditorContext.swift in Sources */,
+				47F77B8026B7CC0200859902 /* Types.swift in Sources */,
+				4795997C26B91490009D8B4A /* TextDecoder.swift in Sources */,
+				47F77B6526B7CC0200859902 /* AttachmentSize.swift in Sources */,
+				47F77B6626B7CC0200859902 /* AttributesEncoding.swift in Sources */,
+				4795997E26B91490009D8B4A /* ParagraphDecoder.swift in Sources */,
+				47F77B7A26B7CC0200859902 /* FontExtensions.swift in Sources */,
+				47F77B6F26B7CC0200859902 /* FontTraitToggleCommand.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F778B826B7BCA900859902 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F778C126B7BCA900859902 /* MailComposerAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F778C326B7BCA900859902 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F778CC26B7BCA900859902 /* MailComposerAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47F778BE26B7BCA900859902 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47F778A526B7BCA700859902 /* MailComposerApp */;
+			targetProxy = 47F778BD26B7BCA900859902 /* PBXContainerItemProxy */;
+		};
+		47F778C926B7BCA900859902 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47F778A526B7BCA700859902 /* MailComposerApp */;
+			targetProxy = 47F778C826B7BCA900859902 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47F778AF26B7BCA700859902 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47F778B026B7BCA700859902 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47F778B426B7BCA900859902 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47F778B526B7BCA900859902 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47F778CE26B7BCA900859902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		47F778CF26B7BCA900859902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47F778D126B7BCA900859902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MailComposerApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tavent.MailComposerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MailComposer/bridging-header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "MailComposerApp-swift.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47F778D226B7BCA900859902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MailComposerApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tavent.MailComposerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MailComposer/bridging-header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "MailComposerApp-swift.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		47F778D426B7BCA900859902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MailComposerAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tavent.MailComposerAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MailComposerApp.app/MailComposerApp";
+			};
+			name = Debug;
+		};
+		47F778D526B7BCA900859902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MailComposerAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tavent.MailComposerAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MailComposerApp.app/MailComposerApp";
+			};
+			name = Release;
+		};
+		47F778D726B7BCA900859902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MailComposerAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tavent.MailComposerAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MailComposerApp;
+			};
+			name = Debug;
+		};
+		47F778D826B7BCA900859902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MailComposerAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tavent.MailComposerAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MailComposerApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47F778A126B7BCA700859902 /* Build configuration list for PBXProject "MailComposerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47F778CE26B7BCA900859902 /* Debug */,
+				47F778CF26B7BCA900859902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47F778D026B7BCA900859902 /* Build configuration list for PBXNativeTarget "MailComposerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47F778D126B7BCA900859902 /* Debug */,
+				47F778D226B7BCA900859902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47F778D326B7BCA900859902 /* Build configuration list for PBXNativeTarget "MailComposerAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47F778D426B7BCA900859902 /* Debug */,
+				47F778D526B7BCA900859902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47F778D626B7BCA900859902 /* Build configuration list for PBXNativeTarget "MailComposerAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47F778D726B7BCA900859902 /* Debug */,
+				47F778D826B7BCA900859902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47F7789E26B7BCA700859902 /* Project object */;
+}
